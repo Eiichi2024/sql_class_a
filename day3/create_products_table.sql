@@ -1,0 +1,38 @@
+CREATE TABLE products (
+    ProductCode VARCHAR(10) NOT NULL,
+    ProductName VARCHAR(255) NOT NULL,
+    UnitPrice DECIMAL(10,2) NOT NULL,
+    PRIMARY KEY (ProductCode)
+);
+
+INSERT INTO products (ProductCode, ProductName, UnitPrice) VALUES
+('P1001', 'Product 1', 10.00),
+('P1002', 'Product 2', 15.50),
+('P1003', 'Product 3', 8.75),
+('P1004', 'Product 4', 12.00),
+('P1005', 'Product 5', 9.25),
+('P1006', 'Product 6', 14.95),
+('P1007', 'Product 7', 22.50),
+('P1008', 'Product 8', 19.90),
+('P1009', 'Product 9', 20.00),
+('P1010', 'Product 10', 11.00),
+('P1011', 'Product 11', 13.00),
+('P1012', 'Product 12', 16.00),
+('P1013', 'Product 13', 25.00),
+('P1014', 'Product 14', 30.00),
+('P1015', 'Product 15', 45.00),
+('P1016', 'Product 16', 12.50),
+('P1017', 'Product 17', 22.00),
+('P1018', 'Product 18', 25.50),
+('P1019', 'Product 19', 18.75),
+('P1020', 'Product 20', 9.99),
+('P1021', 'Product 21', 10.50),
+('P1022', 'Product 22', 15.75),
+('P1023', 'Product 23', 20.25),
+('P1024', 'Product 24', 17.00),
+('P1025', 'Product 25', 16.75),
+('P1026', 'Product 26', 11.25),
+('P1027', 'Product 27', 5.00),
+('P1028', 'Product 28', 9.50),
+('P1029', 'Product 29', 4.95),
+('P1030', 'Product 30', 7.20);
